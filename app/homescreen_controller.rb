@@ -55,24 +55,3 @@ class HomescreenLayout < MK::Layout
     end
   end
 end
-
-
-
-# def button_tapped(_)
-#   puts "Hello World"
-#   @tapped = true
-# end
-#
-# def viewWillAppear(animated)
-#   @tapped = false
-#   self.view.backgroundColor = UIColor.whiteColor
-#   button = UIButton.buttonWithType(UIButtonTypeCustom).tap do |b|
-#             b.backgroundColor = UIColor.blueColor
-#             b.frame = [[100,100],[300,100]]
-#           end
-#   button.setTitle("HELLO WORLD", forState:UIControlStateNormal)
-#   self.view.addSubview(
-#     button
-#   )
-#   button.addTarget(self, action:"button_tapped:", forControlEvents:UIControlEventTouchUpInside)
-# end
